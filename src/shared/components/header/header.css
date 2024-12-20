@@ -1,0 +1,111 @@
+.main-hotel{
+    display: flex;
+    color: #fff;
+    padding: 28px 30px;
+    justify-content: space-between;
+}
+.hotel-bg{
+    background-color: #1c3532;
+}
+.hotel{
+    font-size: 14px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-weight: 400;
+}
+.hotel1 button{
+    color: #1c3532;
+    background-color: #fff;
+    border: 1px solid transparent;
+    padding: 12px 24px;
+    border-radius: 99px;
+    font-weight: 400;
+}
+.hide{
+    position: fixed;
+    top: 0;
+    z-index: 9;
+    width: 100%;
+}
+.menu-icon img{
+    display: none;
+}
+.hotel11{
+    display: none;
+}
+.header1{
+    display: none;
+}
+
+@media(max-width:768px){
+    .main-hotel{
+     display: none;
+    }
+    .hotel{
+        display: none;
+    }
+    .hotel-logo img{
+        height: 20px;
+        width: 100%;
+    }
+    .menu-icon img{
+        display: block;
+        height: 28px;
+        width: 100%;
+    }
+    .open{
+        display: none;
+    }
+    .header1{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* margin: 0 20px; */
+        padding: 20px;
+    }
+    .hotel11{
+        display: block;
+    }
+    .hotel11 button{
+        color: #1c3532;
+        background-color: #fff;
+        border: 1px solid transparent;
+        padding: 12px 24px;
+        border-radius: 99px;
+        font-weight: 400;
+        font-size: 14px;
+    }
+}
+
+@media(max-width:576px){
+    .hotel{
+        display: none;
+    }
+    .hotel-logo img{
+        height: 20px;
+        width: 100%;
+    }
+    .menu-icon img{
+        display: block;
+        height: 28px;
+        width: 100%;
+    }
+    .open{
+        display: flex;
+        align-items: center;
+        gap: 270px;
+    }
+    .hotel11{
+        display: block;
+    }
+    .hotel11 button{
+        color: #1c3532;
+        background-color: #fff;
+        border: 1px solid transparent;
+        padding: 12px 24px;
+        border-radius: 99px;
+        font-weight: 400;
+        font-size: 14px;
+    }
+}

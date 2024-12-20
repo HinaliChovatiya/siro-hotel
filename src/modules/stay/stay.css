@@ -1,0 +1,183 @@
+.stay img {
+    height: 691px;
+    width: 100%;
+    object-fit: cover;
+}
+.bg-stay {
+    position: relative;
+}
+/* .ok-stay{
+    height: 691px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0.5;
+    background: linear-gradient(1turn,rgb(0,0,0,.6)46.35%,transparent),linear-gradient(0deg,rgb(0,0,0,.3),rgb(0,0,0,.3));
+} */
+.keep{
+    position: absolute;
+    top: 50%;
+    left: 36%;
+    text-align: center;
+    max-width: 800px;
+}
+.keep h1 {
+    font-size: 44px;
+    font-weight: 300;
+    font-family: "Playfair Display", serif;
+    color: #fff; 
+    padding-bottom: 20px;
+}
+.keep p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+.keep-down{
+    position: absolute;
+    bottom: 2%;
+    left: 47%;
+}
+.keep-down img{
+    height: 100%;
+    width: 100%;
+}
+.register1 h2{
+    font-size: 36px;
+    font-weight: 400;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    margin: 80px 0 20px 0;
+}
+.register1 p{
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.main-form{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    /* justify-content: center; */
+ }
+ .form11 label{
+     font-size: 12px;
+ }
+ .form11 input{
+     font-size: 12px;
+     padding: 10px 0;
+     display: block;
+     border: none;
+     border-bottom: 1px solid;
+     color: inherit;
+    width: 100%;
+ }
+ .form11-11 label{
+    font-size: 12px;
+}
+.form11-11 input{
+    font-size: 12px;
+    padding: 10px 0;
+    display: block;
+    border: none;
+    border-bottom: 1px solid;
+    color: inherit;
+   width: 100%;
+}
+ .form12{
+     display: flex;
+     gap: 10px;
+ }
+ .form12 select{
+     border: none;
+ }
+ .by1 p{
+     font-size: 12px;
+     max-width: 800px;
+     margin: 0 auto;
+     padding-top:20px;
+ }
+ .sub1 button{
+     padding: 12px 24px;
+     font-size: 14px;
+     border-radius: 99px;
+     font-weight: 400;
+     border: 1px transparent;
+     color: #fff;
+     background-color: #1c3532;
+ }
+ .sub1{
+     display: flex;
+     justify-content: center;
+     margin-top: 30px;
+ }
+
+ @media(max-width:768px){
+    .stay img {
+        height: 860px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .keep{
+        position: absolute;
+        top: 40%;
+        left: 30%;
+        text-align: center;
+        max-width: 800px;
+    }
+    .main-form{
+        margin: 0 30px;
+    }
+    .form12,.form11-11{
+        display: none;
+    }
+    .by1{
+        margin: 0 30px;
+    }
+ }
+
+ @media(max-width:576px){
+    .stay img {
+        height: 540px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .keep{
+        position: absolute;
+        top: 40%;
+        left: 15%;
+        text-align: center;
+        max-width: 800px;
+    }
+    .keep h1{
+        font-size: 36px;
+    }
+    .keep p{
+        font-size: 14px;
+    }
+    .register1{
+        padding: 0 40px;
+    }
+    .register1 h2{
+        font-size: 32px;
+    }
+    .register1 p{
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    .main-form{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 0;
+        margin: 0 30px;
+        /* justify-content: center; */
+     }
+     .sub1{
+        display: block;
+        margin: 20px 30px;
+    }
+ }
+ 

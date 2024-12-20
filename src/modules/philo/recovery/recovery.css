@@ -1,0 +1,153 @@
+.recovery{
+    margin-top: 50px;
+}
+.recovery h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 38px;
+    font-weight: 300;
+    text-align: center;
+}
+.recovery p{
+    padding: 20px 0 80px 0;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 844px;
+    margin: 0 auto;
+    text-align: center;
+}
+.formula{
+    display: flex;
+    gap: 120px;
+    align-items: center;
+    padding-bottom: 80px;
+}
+.formula1 img{
+    height: 840px;
+    width: 100%;
+    border-radius: 10px;
+}
+.formula2 img{
+    height: 552px;
+    width: 100%;
+    border-radius: 10px;
+}
+.mind{
+    margin-bottom: 80px;
+}
+.mind img{
+    height: 691px;
+    width: 100%;  
+}
+.full{
+    margin-top: 50px;
+}
+.full h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 38px;
+    font-weight: 300;
+    text-align: center;
+}
+.full p{
+    padding: 20px 0 80px 0;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 844px;
+    margin: 0 auto;
+    text-align: center;
+}
+.offer{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    padding-bottom: 80px;
+}
+.offer1{
+    max-width: 460px;
+    margin: 0 auto;
+}
+.offer1 img{
+    height: 552px;
+    width: 100%;
+    border-radius: 10px;
+}
+.offer2 img{
+    height: 840px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+@media(max-width:768px){
+    .recovery{
+        margin: 50px 30px 0;
+    }
+    .formula{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        padding-bottom: 80px;
+        margin: 0 30px;
+    }
+    .mind img{
+        height: 1024px;
+        width: 100%;  
+    }
+    .full{
+        margin: 50px 30px 0;
+    }
+    .offer{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        padding-bottom: 80px;
+        margin: 0 30px;
+    }
+}
+
+@media(max-width:576px){
+    .recovery h2 {
+        font-size: 32px;
+    }
+    .recovery p{
+        padding: 20px 0 40px 0;
+        font-size: 14px;
+    }
+    .formula{
+        display: block;
+    }
+    .formula1 img{
+        height: 454px;
+        width: 100%;
+        border-radius: 10px;
+    }
+    .formula2 img{
+        margin-top: 20px;
+        height: 454px;
+        width: 100%;
+        border-radius: 10px;
+    }
+    .mind img{
+        height: 675px;
+        width: 100%;  
+    }
+    .full h2 {
+        font-size: 32px;
+    }
+    .full p{
+        padding: 20px 0 40px 0;
+        font-size: 14px;
+    }
+    .offer{
+        display: block;
+    }
+    .offer img{
+        height: 454px;
+        width: 100%;
+        border-radius: 10px;
+    }
+    .offer img{
+        margin-top: 20px;
+        height: 454px;
+        width: 100%;
+        border-radius: 10px;
+    }
+}

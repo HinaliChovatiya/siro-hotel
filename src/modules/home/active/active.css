@@ -1,0 +1,202 @@
+.life video{
+    height:100%;
+    width: 100%;
+}
+.life{
+    position: relative;
+}
+.mainlife{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    background: linear-gradient(1turn,rgb(0,0,0,.6)46.35%,transparent),linear-gradient(0deg,rgb(0,0,0,.3),rgb(0,0,0,.3));
+}
+.step{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 18%;
+    text-align: center;
+}
+.step p{
+    font-size: 14px;
+    font-weight: 400;
+}
+.step span{
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+.step h1{
+    font-family: "Playfair Display", serif;
+    font-size: 44px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.step button{
+    color: #1c3532;
+    background-color: #fff;
+    border: 1px solid transparent;
+    padding: 12px 24px;
+    border-radius: 99px;
+    font-size: 14px;
+}
+.step2{
+    position: absolute;
+    bottom: -29%;
+    right: 1%;
+}
+.down{
+    position: absolute;
+    bottom: -29%;
+    right: 51%;
+}
+.mainpower{
+    position: absolute;
+    top: 0;
+    left: 0;    
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    background: linear-gradient(1turn,rgb(0,0,0,.6)46.35%,transparent),linear-gradient(0deg,rgb(0,0,0,.3),rgb(0,0,0,.3));
+}
+.power img{
+    width: 100%;
+    height: 860px;
+    object-fit: cover;
+}
+.team{
+    position: relative;
+}
+.train{
+    max-width: 850px;
+    margin: 0 auto;
+    position: absolute;
+    top: 40%;
+    right: 22%;
+    text-align: center;
+    color: #fff;
+}
+/* .team-bg{
+    background: linear-gradient(0deg, #000, #000);
+} */
+.train p{
+    font-size: 14px;
+    font-weight: 400;
+}
+.train h2{
+    font-family: "Playfair Display", serif;
+    font-size: 44px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.train span{
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+.train button{
+    color: #f8f8f8;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-color: #fff;
+    padding: 12px 24px;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 99px;
+}
+
+@media(max-width:768px){
+    .life video{
+        display: block;
+        height:1024px;
+        width: 100%;
+        object-fit: cover;
+        /* opacity:0.80; */
+    }
+    .life{
+        position: relative;
+    }
+    .step2{
+        position: absolute;
+        bottom: 1%;
+        right: 1%;
+    }
+    .down{
+        position: absolute;
+        bottom: 2%;
+    }
+    .step{
+        color: #fff;
+        position: absolute;
+        top: 40%;
+        left: 2%;
+        text-align: center;
+    }
+    .power img{
+        width: 100%;
+        height: 860px;
+    }
+    .train{
+        position: absolute;
+        top: 40%;
+        right:  0;
+        text-align: center;
+        color: #fff;
+    }
+}
+@media(max-width:576px){
+    .life video{
+        display: block;
+        height:675px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .step{
+        color: #fff;
+        position: absolute;
+        top: 25%;
+        padding: 40px;
+        text-align: center;
+    }
+    .step p{
+        font-size: 12px;
+    }
+    .step h1{
+        font-size: 36px;
+    }
+    .step span{
+        font-size: 14px;
+    }
+    .step button{
+        font-size: 12px;
+    }
+    .power img{
+        width: 100%;
+        height: 540px;
+    }
+    .train p{
+        font-size: 12px;
+    }
+    .train h2{
+        font-size: 36px;
+    }
+    .train span{
+        font-size: 14px;
+    }
+    .train button{
+        font-size: 12px;
+    }
+    .train{
+        position: absolute;
+        top: 20%;
+        text-align: center;
+        color: #fff;
+        padding: 40px;
+    }
+}

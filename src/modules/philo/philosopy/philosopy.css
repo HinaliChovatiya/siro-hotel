@@ -1,0 +1,89 @@
+.connect img {
+    height: 691px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.connect {
+    position: relative;
+}
+
+.connect1 h1 {
+    font-size: 44px;
+    font-weight: 300;
+    font-family: "Playfair Display", serif;
+    color: #fff;
+    position: absolute;
+    top: 20%;
+    left: 38%;
+}
+.fitness{
+    margin-top: 50px;
+}
+.fitness h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 38px;
+    font-weight: 300;
+    text-align: center;
+}
+.fitness p{
+    padding: 20px 0 80px 0;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 844px;
+    margin: 0 auto;
+    text-align: center;
+}
+.black img{
+    height: 544px;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+@media(max-width:768px){
+    .connect img {
+        height: 1024px;
+        width: 100%;
+    }
+    .connect1 h1 {
+        position: absolute;
+        top: 20%;
+        left: 30%;
+    }
+    .fitness{
+        margin: 50px 30px 0;
+    }
+    .black{
+        margin: 0 30px;
+    }
+    .black img{
+        height: 398px;
+        width: 100%;
+        border-radius: 10px;
+    }
+}
+
+@media(max-width:576px){
+    .connect img {
+        height: 675px;
+        width: 100%;
+    }
+    .connect1 h1{
+        font-size: 36px;
+        top: 20%;
+        left: 18%;
+    }
+    .fitness h2{
+        font-size: 32px;
+    }
+    .fitness p{
+        font-size: 14px;
+    }
+    .black img{
+        height: 219px;
+        width: 100%;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+}

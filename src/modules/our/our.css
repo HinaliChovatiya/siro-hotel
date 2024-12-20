@@ -1,0 +1,293 @@
+.our img {
+    height: 691px;
+    width: 100%;
+    object-fit: cover;
+}
+.main-our {
+    position: relative;
+}
+.platform{
+    position: absolute;
+    top: 50%;
+    left: 32%;
+    text-align: center;
+    max-width: 800px;
+}
+.platform h1 {
+    font-size: 44px;
+    font-weight: 300;
+    font-family: "Playfair Display", serif;
+    color: #fff; 
+    padding-bottom: 20px;
+}
+.platform p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+.destination-down{
+    position: absolute;
+    bottom: 2%;
+    left: 48%;
+}
+.destination-down img{
+    height: 100%;
+    width: 100%;
+}
+.across{
+    margin: 50px 0;
+}
+.across h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 38px;
+    font-weight: 300;
+    text-align: center;
+}
+.across p{
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.main-discover1{
+    position: relative;
+}
+.discover1 img{
+    width: 100%;
+    height: 640px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.discover1-submit{
+    position: absolute;
+    padding: 80px;
+    top: 55%;
+    color: #fff;
+    text-align: left;
+    max-width: 600px;
+}
+.discover1-submit h2{
+    margin-bottom: 15px;
+    font-size: 38px;
+    font-weight: 300;
+    font-family: "Playfair Display", serif;
+}
+.discover1-submit p{
+    margin-bottom: 32px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.discover1-submit button{
+    background-color: #fff;
+    color: #1c3532;
+    border: 1px solid transparent;
+    padding: 12px 24px;
+    border-radius: 99px;
+    font-size: 14px;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 20px;
+}
+.book{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 60px;
+    margin-top: 80px;
+}
+.book1 img{
+    width: 100%;
+    height: 610px;
+}
+.book1 h3{
+    font-size: 32px;
+    font-weight: 300;
+    text-align: center;
+    padding: 30px 0 16px ;
+    font-family: "Playfair Display", serif;
+}
+.book1 p{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    max-width: 530px;
+    margin: 0 auto;
+}
+.lets img{
+    width: 100%;
+    height: 640px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-top: 80px;
+}
+.main-wide{
+    position: relative;
+    margin-top: 80px;
+}
+.wide img{
+    width: 100%;
+    height: 640px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.wide-submit{
+    position: absolute;
+    padding: 80px;
+    top: 45%;
+    color: #fff;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+.wide-submit h2{
+    margin-bottom: 15px;
+    font-size: 38px;
+    font-weight: 300;
+    font-family: "Playfair Display", serif;
+}
+.wide-submit p{
+    margin-bottom: 32px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.wide-submit button{
+    background-color: #fff;
+    color: #1c3532;
+    border: 1px solid transparent;
+    padding: 12px 24px;
+    border-radius: 99px;
+    font-size: 14px;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 20px;
+}
+.wide-submit i{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+@media(max-width:768px){
+    .our img {
+        height: 1024px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .platform{
+        position: absolute;
+        top:40%;
+        left: 21%;
+        text-align: center;
+        max-width: 800px;
+    }
+    .across{
+        margin: 80px  30px 0 ;
+    }
+    .main-discover1{
+        position: relative;
+        margin: 80px 30px 0; 
+    }
+    .book{
+        margin: 70px  30px 0;
+    }
+    .lets{
+        margin: 0 30px;
+    }
+    .lets img{
+        width: 100%;
+        height: 398px;
+        border-radius: 10px;
+        object-fit: cover;
+        margin-top: 80px;
+    }
+    .main-wide{
+        margin: 80px  30px 0;
+    }
+}
+
+@media(max-width:576px){
+    .our img {
+        height: 675px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .platform{
+        position: absolute;
+        top:40%;
+        left: 0%;
+        text-align: center;
+        padding: 40px;
+        max-width: 800px;
+    }
+    .platform p{
+        font-size: 14px;
+    }
+    .platform h1 {
+        font-size: 36px;
+    }
+    .across h2{
+        font-size: 32px;
+    }
+    .across p{
+        font-size: 14px;
+    }
+    .discover1 img{
+        width: 100%;
+        height: 560px;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+    .discover1-submit h2{
+        font-size: 32px;
+    }
+    .discover1-submit{
+        position: absolute;
+        padding: 24px;
+        top: 55%;
+        color: #fff;
+        text-align: center;
+        max-width: 600px;
+    }
+    .book{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 0;
+        margin-top: 80px;
+    }
+    .book1 img{
+        width: 100%;
+        height: 342px;
+    }
+    .book1 h3{
+        font-size: 24px;
+    }
+    .book1 p{
+        font-size: 14px;
+        padding-bottom: 20px;
+    }
+    .wide img{
+        width: 100%;
+        height: 560px;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+    .wide-submit h2{
+        font-size: 32px;
+    }
+    .wide-submit p{
+        font-size: 14px;
+    }
+    .wide-submit button{
+        font-size: 12px;
+    }
+    .wide-submit{
+        position: absolute;
+        padding: 40px;
+        top: 30%;
+        color: #fff;
+        max-width: 900px;
+        margin: 0 auto;
+        text-align: center;
+    }
+}

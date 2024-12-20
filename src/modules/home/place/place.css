@@ -1,0 +1,126 @@
+.boka video{
+    height:552px;
+    width: 100%;
+    object-fit: cover;
+    /* opacity:0.80; */
+}
+.boka1 video{
+    height:552px;
+    width: 100%;
+    object-fit: cover;
+    /* opacity:0.80; */
+}
+.mainboka{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(1turn,rgb(0,0,0,.6)46.35%,transparent),linear-gradient(0deg,rgb(0,0,0,.3),rgb(0,0,0,.3));
+}
+.nature{
+    position: relative;
+}
+.mont{
+    color: #fff;
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    text-align: center;
+}
+.mont p{
+    font-size: 14px;
+    font-weight: 400;
+}
+.mont span{
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+.mont h1{
+    font-family: "Playfair Display", serif;
+    font-size: 44px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.mont button{
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 12px 24px;
+    border-radius: 99px;
+}
+.mont2{
+    position: absolute;
+    bottom: -15%;
+    right: 1%;
+}
+.pal{
+    display: none;
+}
+
+@media(max-width:768px){
+    .mont{
+        color: #fff;
+        position: absolute;
+        top: 40%;
+        left: 5%;
+        text-align: center;
+    }  
+    .boka video{
+        width: 100%;
+        height: 860px;
+        object-fit: cover;   
+    }
+    .boka1 video{
+        width: 100%;
+        height: 860px;
+        object-fit: cover;   
+    }
+    .pal{
+        display: block;
+        position: absolute;
+        bottom: 1%;
+        right: 1%;
+    }
+}
+
+@media(max-width:576px){
+    .boka video{
+        width: 100%;
+        height: 540px;
+        object-fit: cover;   
+    }
+    .boka1 video{
+        width: 100%;
+        height: 540px;
+        object-fit: cover;   
+    }
+    .mont{
+        color: #fff;
+        position: absolute;
+        top: 20%;
+        left: 1%;
+        padding: 40px;
+        text-align: center;
+    }
+    .mont p{
+        font-size: 12px;
+    }
+    .mont h1{
+        font-size: 32px;
+    }
+    .mont span{
+        font-size: 14px;
+    }
+    .mont button{
+        font-size: 12px;
+    }
+    .pal{
+        display: block;
+        position: absolute;
+        bottom: 3%;
+        right: 2%;
+    }
+}
